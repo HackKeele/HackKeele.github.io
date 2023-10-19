@@ -661,10 +661,10 @@ body {
 
 .gradient-border {
     
-    overflow-y: hidden;
+    --overflow-y: hidden;
 
         --borderWidth: 7px;
-    position: fixed;
+    --position: fixed;
     border-radius: var(--borderWidth);
     height: calc(100% - 4 * var(--borderWidth));
     top: calc(var(--borderWidth));

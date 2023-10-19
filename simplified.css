@@ -419,6 +419,7 @@ button.pop-up-button {
     left: calc(var(--borderWidth));
     width: calc(100% - 4 * var(--borderWidth));
         background: radial-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.11) 80%), url(images/background2.jpg);
+        background-attachment:fixed;
     
 
     background-size: cover;

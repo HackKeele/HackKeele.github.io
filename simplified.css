@@ -1,7 +1,18 @@
 body {
   background: black
   font-family: 'Montserrat', sans-serif;
-  background: black;
+  background: radial-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.11) 80%), url(images/background2.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    border: var(--borderWidth) solid #7A5FFF;
+        border-color: #7A5FFF;
+    border-image-source:
+      linear-gradient(30deg, #7A5FFF, #01FF89);
+    border-image-slice: 20;
+
+    #animation: animatedBorder 5s infinite;
   color: #f2f2f2;
 }
 h1,
@@ -377,7 +388,7 @@ button.pop-up-button {
     border-radius: 5px;
     padding: 0 1em;
     color: #fff;
-    max-width: 220px;
+    max-width: 220px; background: radial-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.11) 80%), url(images/background2.jpg);
 }
 
 .main-submit2 {
@@ -406,31 +417,4 @@ button.pop-up-button {
     border: 0;
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
     color: #ffffff !important;
-}
-.gradient-border {
-    
-    overflow-y: hidden;
-
-        --borderWidth: 7px;
-    --position: fixed;
-    border-radius: var(--borderWidth);
-    height: calc(100% - 4 * var(--borderWidth));
-    top: calc(var(--borderWidth));
-    left: calc(var(--borderWidth));
-    width: calc(100% - 4 * var(--borderWidth));
-        background: radial-gradient(rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.11) 80%), url(images/background2.jpg);
-        background-attachment:fixed;
-    
-
-    background-size: cover;
-    background-position: center;
-    z-index: -1;
-    border: var(--borderWidth) solid #7A5FFF;
-        border-color: #7A5FFF;
-    border-image-source:
-      linear-gradient(30deg, #7A5FFF, #01FF89);
-    border-image-slice: 20;
-
-    #animation: animatedBorder 5s infinite;
-
 }

@@ -11,14 +11,13 @@
     <meta name="description" content="We're a society for tech-minded individuals to meet up, learn and create the future of technology! If you've got an interest in Programming, Coding, Web development, Game development, Cyber Security, Ethical Hacking, Networking, Computing, Artificial Intelligence etc. - you'll fit in perfectly!" />
     <meta name="keywords" content="Hackathon, Keele, Hack Keele" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="HackKeele.css" />
+    <link rel="stylesheet" type="text/css" href="simplified.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <!-- DELETE -->
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Condensed" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="HackKeele.js"></script>
-    <script type="text/javascript" src="jquery.pagepiling.js" defer></script>
     <script type="text/javascript">
         const second = 1000
             , minute = second * 60
@@ -40,50 +39,7 @@
             }, second)
         
         
-                                var thresholdWindow = 360;
-
-        
-        $(document).ready(function () {
-            /*
-             * Plugin intialization
-             
-            $('#pagepiling').pagepiling({
-                //direction: 'horizontal',
-                //CHANGE MENU HIGHLIGHTING
-                menu: 'null'
-                , normalScrollElements: '.intro .pop-up-container'
-                , anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6']
-                , navigation: {
-                    'position': 'right'
-                    , 'tooltips': ['Home', 'What?', 'Who?', 'Why?', 'Skills', 'Sign Up']
-                }
-                , afterRender: function () {
-                    $('#pp-nav').addClass('custom');
-                }
-                , afterLoad: function (anchorLink, index) {
-                    if (index > 1) {
-                        $('#pp-nav').removeClass('custom');
-                    }
-                    else {
-                        $('#pp-nav').addClass('custom');
-                    }
-                }
-            });*/
-            
-
-            if ($(window).width() <= thresholdWindow) {
-                $('.section').addClass('pp-scrollable');
-                $('.section').removeClass('pp-table');
-                $('.section').children(':first-child').removeClass('pp-tableCell');
-            }
-            else {
-                if ($(window).width() > thresholdWindow) {
-                    $('.section').removeClass('pp-scrollable');
-                    $('.section').addClass('pp-table');
-                    $('.section').children(':first-child').addClass('pp-tableCell');
-                }
-            }
-        });
+                                var thresholdWindow = 360'
         
         $(window).resize(function () {
             if ($(window).width() <= thresholdWindow) {
@@ -112,8 +68,10 @@
                 <li><a href="sponsers.html">Sponsors</a></li>
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html" class="last">Contact</a></li></div>
+        
         <div id="pagepiling">
             <div class="gradient-border">
+              </br></br></br></br></br></br></br></br></br></br>
                 <div class="section" id="section1">
                     <div class="logo-wrap">
                         <svg id="main-logo-svg" viewBox="15 40 625.000000 290" preserveAspectRatio="xMidYMid meet">
@@ -177,6 +135,7 @@
                         <a class="main-submit2" href="//hackkeele.us16.list-manage.com/subscribe/post?u=0965d93aa0b4782e70bdd057e&amp;id=b2cbb327ec">Sign Up!</a>
 --><a class="main-submit2" href="https://hackkeele.eventbrite.co.uk">Sign Up!</a> </form>
                 </div>
+               </br></br></br></br></br></br></br></br></br></br>
                 <div class="section" id="section2">
                     <div class="intro">
                         <h1>What is Hack Keele?</h1>
@@ -240,6 +199,7 @@
                         </div>
                     </div>
                 </div>
+                </br></br></br></br></br></br></br></br></br></br>
                 <div class="section" id="section3">
                     <div class="intro">
                         <h1>Who can attend?</h1>
@@ -247,6 +207,7 @@
                         <p>Our hackathons are free to enter! Hack Keele is a student focused society and hackathon, and therefore you must be a current student or have graduated within the last academic year to be able to attend. If you are under 18 years of age, we’ll need a parental consent form. More information will be released soon.</p>
                     </div>
                 </div>
+                </br></br></br></br></br></br></br></br></br></br>
                 <div class="section" id="section4">
                     <div class="intro">
                         <h1>Why are hackthons important?</h1>
@@ -257,6 +218,7 @@
                         <br/>
                         <p>Hackathons are like career fairs on steroids. If you’re looking for an internship or a job in the tech industry, guess where companies are recruiting? At hackathons of course! </div>
                 </div>
+                </br></br></br></br></br></br></br></br></br></br>
                 <div class="section" id="section5">
                     <div class="intro">
                         <h1>What skills do I need?</h1>
@@ -266,15 +228,12 @@
                             <br/> Nonsense - Everyone has to start somewhere, and we will have mentors at the events and workshops to help you along. One of the most awesome qualities of hackathons is the sheer number of lovely people that you'll meet at them, so no matter your skill level or expertise, you'll always be able to have an awesome time, pick up loads of new skills, and make new friends!</p>
                     </div>
                 </div>
+                </br></br></br></br></br></br></br></br></br></br>
                 <div class="section" id="section6">
                     <div class="intro questions">
                         <h1>Get Involved!</h1>
                         <br/>
-                        <h3><i class="fa fa-facebook-official" aria-hidden="true"></i>
-Facebook: <a href="https://www.facebook.com/hackkeele/">Hack Keele</a></h3>
-                        <h3><i class="fa fa-twitter-square" aria-hidden="true"></i>
-Twitter: <a href="https://twitter.com/HackKeele">@hackkeele</a></h3>
-                        <h3><i class="fa fa-envelope" aria-hidden="true"></i>
+ <h3><i class="fa fa-envelope" aria-hidden="true"></i>
                     Email: <a href="mailto:soc.hack@keele.ac.uk">soc.hack@keele.ac.uk</a></h3> <a class="main-submit2" href="https://keelesu.com/activities/society/hackkeele/">Sign Up!</a> </div>
                 </div>
             </div>
